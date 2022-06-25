@@ -1,0 +1,57 @@
+:root {
+    --headerColor: rgb(140, 0, 168);
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    height: 100px;
+    align-items: center;
+    box-shadow: 0px 2px 100px var(--headerColor);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: var(--headerColor);
+}
+
+header img {
+    height: 75px;
+    width: 100px;
+}
+
+.mood-selector {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    height: 45px;
+    width: auto;
+
+}
+
+.mood-selector div {
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mood-selector div h2 {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: .03s;
+}
+
+.mood-selector div h2:hover {
+    cursor: pointer;
+    background-color: rgb(173, 0, 130);
+    transition: .3s;
+    color: white;
+}
+
+@media only screen and (max-width: 720px) {
+    header {
+        
+    }
+}
