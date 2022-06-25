@@ -49,3 +49,9 @@ header img {
     transition: .3s;
     color: white;
 }
+
+@media only screen and (max-width: 720px) {
+    header {
+        
+    }
+}
