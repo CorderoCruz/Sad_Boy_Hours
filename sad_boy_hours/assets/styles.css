@@ -43,6 +43,21 @@ header img {
     transition: .03s;
 }
 
+.btn {
+    border-radius: 2em;
+    border: 0.3em solid var(--headerColor);
+    color: var(--headerColor);
+    cursor: pointer;
+    font-size: 5vmin;
+    padding: 0.7em 1.5em;
+    transition: all .25s ease;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 .mood-selector div h2:hover {
     cursor: pointer;
     background-color: rgb(173, 0, 130);
