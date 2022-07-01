@@ -17,3 +17,9 @@ app.get('/login', function(req, res) {
       state: state
     }));
 });
+
+const btn = document.getElementById('btnSpot');
+
+btn.addEventListener('click', () => {
+  btn.style.visibility = "hidden";
+})

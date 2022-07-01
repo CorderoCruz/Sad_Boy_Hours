@@ -27,7 +27,7 @@ $( document ).ready(function() {
    let redirect_uri = 'https%3A%2F%2Fcorderocruz.github.io%2FSad_Boy_Hours%2Fsad_boy_hours'; // GitHub Pages URL or whatever your public url to this app is
    // *************** END *************************
 
-   const redirect = `https://accounts.spotify.com/authorize?client_id=${client_id}&response_type=token&redirect_uri=${redirect_uri}`;
+   const redirect = `https://accounts.spotify.com/authorize?client_id=7a20929f48a445a98c047b5c304cd887&response_type=token&redirect_uri=https%3A%2F%2Fcorderocruz.github.io%2FSad_Boy_Hours%2Fsad_boy_hours`;
    // Don't authorize if we have an access token already
    if(accessToken == null || accessToken == "" || accessToken == undefined){
      window.location.replace(redirect);
