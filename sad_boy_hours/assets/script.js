@@ -1,7 +1,7 @@
 const btn = document.getElementById('hideSpotifyBtn');
 btn.addEventListener('click', () => {
-  event.preventDefault();
 btn.style.display = 'none';
+
 document.getElementById('btnSpotify').style.display = 'none';
 })
 
