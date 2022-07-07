@@ -6,7 +6,7 @@ document.getElementById('btnSpotify').style.display = 'none';
 })
 
 var client_id = '7a20929f48a445a98c047b5c304cd887';
-var redirect_uri = 'file:///C:/Users/19514/Documents/repos%204%20ucr/project1/sad_boy_hours/index.html';
+var redirect_uri = 'https://corderocruz.github.io/Sad_Boy_Hours/sad_boy_hours/';
 
 var app = express();
 
