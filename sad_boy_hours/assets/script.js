@@ -1,5 +1,6 @@
-const btn = document.getElementById('hideSpotifyBtn');
+let btn = document.getElementById('hideSpotifyBtn');
 let spotifyBtn = document.querySelector('#btnSpotify');
+
 
 
 var client_id = '7a20929f48a445a98c047b5c304cd887';
@@ -21,8 +22,3 @@ app.get('/login', function(req, res) {
       state: state
     }));
 });
-
-btn.addEventListener('click', () => {
-  spotifyBtn.style.display = 'none';
- 
-  })
