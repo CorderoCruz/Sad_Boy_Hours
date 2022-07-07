@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+// Document has been loaded
 $( document ).ready(function() {
   // Helper Function to Extract Access Token for URL
  const getUrlParameter = (sParam) => {
@@ -14,35 +14,6 @@ $( document ).ready(function() {
            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
        }
    }
-=======
-var express = require('express'); // Express web server framework
-var request = require('request'); // "Request" library
-var cors = require('cors');
-var querystring = require('querystring');
-var cookieParser = require('cookie-parser');
-
-var client_id = '7a20929f48a445a98c047b5c304cd887'; // Your client id
-var client_secret = '0fd274b0e2d14fe48d097bb19adc7d10'; // Your secret
-<<<<<<< HEAD
-var redirect_uri = 'https://corderocruz.github.io/Sad_Boy_Hours/sad_boy_hours/; // Your redirect uri
-=======
-var redirect_uri = "https://corderocruz.github.io/Sad_Boy_Hours/sad_boy_hours/redirected"; // Your redirect uri
->>>>>>> 16bf0eef200f088fdc0e3e4e5b03025906df09a6
-
-/**
- * Generates a random string containing numbers and letters
- * @param  {number} length The length of the string
- * @return {string} The generated string
- */
-var generateRandomString = function(length) {
-  var text = '';
-  var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-
-  for (var i = 0; i < length; i++) {
-    text += possible.charAt(Math.floor(Math.random() * possible.length));
-  }
-  return text;
->>>>>>> 40bf78fc51a777098ff577180df060c87b0e860a
 };
 
  // Get Access Token
@@ -53,10 +24,10 @@ var generateRandomString = function(length) {
  let client_id = '7a20929f48a445a98c047b5c304cd887';
  // Use the following site to convert your regular url to the encoded version:
  // https://www.url-encode-decode.com/
- let redirect_uri = 'https%3A%2F%2Fcorderocruz.github.io%2FSad_Boy_Hours%2Fsad_boy_hours%2Fredirected'; // GitHub Pages URL or whatever your public url to this app is
+ let redirect_uri = 'https://corderocruz.github.io/Sad_Boy_Hours/sad_boy_hours/redirected'; // GitHub Pages URL or whatever your public url to this app is
  // *************** END *************************
 
- const redirect = `https://accounts.spotify.com/authorize?client_id=7a20929f48a445a98c047b5c304cd887&response_type=token&redirect_uri=https%3A%2F%2Fcorderocruz.github.io%2FSad_Boy_Hours%2Fsad_boy_hours%2Fredirected`;
+ const redirect = `https://accounts.spotify.com/authorize?client_id=7a20929f48a445a98c047b5c304cd887&response_type=token&redirect_uri=https%3A%2F%2Fmujibsardar.github.io%2Fspotify_jquery_only`;
  // Don't authorize if we have an access token already
  if(accessToken == null || accessToken == "" || accessToken == undefined){
    window.location.replace(redirect);
