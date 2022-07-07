@@ -1,4 +1,4 @@
-var client_id = '7a20929f48a445a98c047b5c304cd887';
+/* var client_id = '7a20929f48a445a98c047b5c304cd887';
 var redirect_uri = 'https://corderocruz.github.io/Sad_Boy_Hours/sad_boy_hours/redirected';
 
 var app = express();
@@ -17,3 +17,4 @@ app.get('/login', function(req, res) {
       state: state
     }));
 });
+ */
