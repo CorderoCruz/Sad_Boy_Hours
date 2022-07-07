@@ -1,11 +1,9 @@
-
 const btn = document.getElementById('hideSpotifyBtn');
 btn.addEventListener('click', () => {
+  event.preventDefault();
 btn.style.display = 'none';
 document.getElementById('btnSpotify').style.display = 'none';
 })
-
-
 
 
 var client_id = '7a20929f48a445a98c047b5c304cd887';
