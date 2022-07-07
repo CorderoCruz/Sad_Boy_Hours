@@ -6,7 +6,11 @@ var cookieParser = require('cookie-parser');
 
 var client_id = '7a20929f48a445a98c047b5c304cd887'; // Your client id
 var client_secret = '0fd274b0e2d14fe48d097bb19adc7d10'; // Your secret
+<<<<<<< HEAD
 var redirect_uri = 'https://corderocruz.github.io/Sad_Boy_Hours/sad_boy_hours/; // Your redirect uri
+=======
+var redirect_uri = "https://corderocruz.github.io/Sad_Boy_Hours/sad_boy_hours/redirected"; // Your redirect uri
+>>>>>>> 16bf0eef200f088fdc0e3e4e5b03025906df09a6
 
 /**
  * Generates a random string containing numbers and letters
