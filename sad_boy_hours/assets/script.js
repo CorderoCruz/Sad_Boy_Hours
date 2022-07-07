@@ -1,12 +1,10 @@
-const btn = document.getElementById('btnSpotify');
+
+const btn = document.getElementById('hideSpotifyBtn');
 btn.addEventListener('click', () => {
 btn.style.display = 'none';
-});
-if (btn) { 
-  btn.value = localStorage.getItem('btnSpotify') || "";{
-      window.localStorage.setItem('btnSpotify',this.value);
-  }; 
-}
+document.getElementById('btnSpotify').style.display = 'none';
+})
+
 
 
 
