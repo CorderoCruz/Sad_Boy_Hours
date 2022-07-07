@@ -1,9 +1,6 @@
 const btn = document.getElementById('hideSpotifyBtn');
+let spotifyBtn = document.querySelector('#btnSpotify');
 
-btn.addEventListener('click', () => {
-btn.style.display = 'none';
-document.getElementById('btnSpotify').style.display = 'none';
-})
 
 var client_id = '7a20929f48a445a98c047b5c304cd887';
 var redirect_uri = 'https://corderocruz.github.io/Sad_Boy_Hours/sad_boy_hours/';
@@ -24,3 +21,8 @@ app.get('/login', function(req, res) {
       state: state
     }));
 });
+
+btn.addEventListener('click', () => {
+  spotifyBtn.style.display = 'none';
+ 
+  })
