@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $( document ).ready(function() {
   // Helper Function to Extract Access Token for URL
  const getUrlParameter = (sParam) => {
@@ -13,6 +14,35 @@ $( document ).ready(function() {
            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
        }
    }
+=======
+var express = require('express'); // Express web server framework
+var request = require('request'); // "Request" library
+var cors = require('cors');
+var querystring = require('querystring');
+var cookieParser = require('cookie-parser');
+
+var client_id = '7a20929f48a445a98c047b5c304cd887'; // Your client id
+var client_secret = '0fd274b0e2d14fe48d097bb19adc7d10'; // Your secret
+<<<<<<< HEAD
+var redirect_uri = 'https://corderocruz.github.io/Sad_Boy_Hours/sad_boy_hours/; // Your redirect uri
+=======
+var redirect_uri = "https://corderocruz.github.io/Sad_Boy_Hours/sad_boy_hours/redirected"; // Your redirect uri
+>>>>>>> 16bf0eef200f088fdc0e3e4e5b03025906df09a6
+
+/**
+ * Generates a random string containing numbers and letters
+ * @param  {number} length The length of the string
+ * @return {string} The generated string
+ */
+var generateRandomString = function(length) {
+  var text = '';
+  var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+
+  for (var i = 0; i < length; i++) {
+    text += possible.charAt(Math.floor(Math.random() * possible.length));
+  }
+  return text;
+>>>>>>> 40bf78fc51a777098ff577180df060c87b0e860a
 };
 
  // Get Access Token
