@@ -1,3 +1,15 @@
+const btn = document.getElementById('btnSpotify');
+btn.addEventListener('click', () => {
+btn.style.display = 'none';
+});
+if (btn) { 
+  btn.value = localStorage.getItem('btnSpotify') || "";{
+      window.localStorage.setItem('btnSpotify',this.value);
+  }; 
+}
+
+
+
 var client_id = '7a20929f48a445a98c047b5c304cd887';
 var redirect_uri = 'file:///C:/Users/19514/Documents/repos%204%20ucr/project1/sad_boy_hours/index.html';
 
@@ -18,8 +30,3 @@ app.get('/login', function(req, res) {
     }));
 });
 
-const btn = document.getElementById('btnSpot');
-
-btn.addEventListener('click', () => {
-  btn.style.visibility = "hidden";
-})
