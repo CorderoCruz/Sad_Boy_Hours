@@ -79,6 +79,17 @@ header img {
     margin-top: 17px;
     font-weight: bold;
 }
+.sectionMood {
+    border: 5px solid var(--headerColor);
+    align-items: center;
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 17px;
+    font-weight: bold;
+}
 
 @media screen and (max-width:600px) {
     .section {

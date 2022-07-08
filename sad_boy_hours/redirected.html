@@ -18,19 +18,19 @@
     </header>
     <div class="mood-selector grid grid-cols-5 text-center">
             <div class="flex">
-                <h2>Happy</h2>
+                <button class="tablinks" onclick="tabs(event, 'Happy')">Happy</button>
             </div>
             <div class="flex">
-                <h2>Sad</h2>
+                <button class="tablinks" onclick="tabs(event, 'Sad')">Sad</button>
             </div>
             <div class="flex">
-                <h2>Angry</h2>
+                <button class="tablinks" onclick="tabs(event, 'Angry')">Angry</button>
             </div>
             <div class="flex">
-                <h2>Excited</h2>
+                <button class="tablinks" onclick="tabs(event, 'Excited')">Excited</button>
             </div>
             <div class="flex">
-                <h2>Meh</h2>
+                <button class="tablinks" onclick="tabs(event, 'Meh')">Meh</button>
             </div>
     </div>
     <div class="section">
@@ -40,9 +40,25 @@
     <div class="section"> <h2 class="text">Sing Along!</h2>
     <p>lyrics go here </p>
 </div>
-<div class="section">
+<div class="sectionMood" id="Happy">
     <h2 class="text"> Playlists </h2>
-    <p> playlist go here </p>
+    <p> Happy </p>
+</div>
+<div class="sectionMood" id="Sad">
+    <h2 class="text"> Playlists </h2>
+    <p> Sad </p>
+</div>
+<div class="sectionMood" id="Angry">
+    <h2 class="text"> Playlists </h2>
+    <p> Angry </p>
+</div>
+<div class="sectionMood" id="Excited">
+    <h2 class="text"> Playlists </h2>
+    <p> Excited </p>
+</div>
+<div class="sectionMood" id="Meh">
+    <h2 class="text"> Playlists </h2>
+    <p> Meh </p>
 </div>
 <script src="web-api-authorization/clientcred.js"></script>
 <script src="web-api-authorization/implicit_grant.js"></script>
